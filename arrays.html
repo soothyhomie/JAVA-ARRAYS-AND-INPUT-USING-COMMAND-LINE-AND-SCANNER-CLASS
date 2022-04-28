@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="CSS/global.css">
+    <link rel="stylesheet" type="text/css" href="CSS/arrays.css">
+    <title>Arrays</title>
+</head>
+
+<body bgcolor="#FFF6EA">
+    <header>
+        <div class="logo">
+            <img src="images/image.png" alt="" style="margin-left: 50px;">
+        </div>
+        <div>
+            <nav class="navbar">
+                <a href="index.html" target="_blank">Assignment Details</a>
+                <a href="arrays.html" target="_blank">1-D,2-D Arrays</a>
+                <a href="CL.html" target="_blank">User Input from Command line</a>
+                <a href="SC.html" target="_blank">User Input from scanner class</a>
+            </nav>
+        </div>
+    </header>
+    <br>
+    <br>
+    <p id="arrayt">
+        An array is a collection of similar type of elements which has a contiguous memory location. <br>
+        Types of array in java are:
+    <ol>
+        <ol type="1" id="list">
+            <li>Single Dimensional Array(1D array)</li>
+            <li>Multidimensional Array(2D array)</li>
+        </ol>
+    </ol>
+
+    </p>
+
+        <hr id="arrays">
+        <h3 id="arrayt"><u>1-D array</u> <br></h3>
+        <p id="arrayt">
+            1D array or single dimensional array contains only a row.
+        </p>
+        <br>
+        <br>
+        <img src="https://i.ibb.co/M5qhrBX/1D-ARRAY.jpg" alt="1D-ARRAY">
+        <br> <br>
+        <h3 id="arrayt"><u>Declaration/ memory allocation of 1D array</u></h3>
+        <h4 style="font-family: consolas,sans-serif;" id="arrayt">
+            datatype arrayName[]=new datatype[size]; <br>
+            Or <br>
+            datatype[] arrayName=new datatype[size];
+            <br> <br>
+            Example: <br>
+            int arr[]= new int[10]; <br>
+            int[] arr= new int[10]; <br>
+        </h4>
+        <br>
+        <br>
+        <h4 id="arrayt">
+            <h3 id="arrayt">Meaning of each word in above statement </h3>
+            <table>
+                <table border="1" id="arrayt">
+                    <tr>
+                        <th>datatype</th>
+                        <th>It is the type of element we want to enter in the array like int,float,double etc.</th>
+                    </tr>
+                    <tr>
+                        <th>arrayName</th>
+                        <th>It is an identifier</th>
+                    </tr>
+                    <tr>
+                        <th>new</th>
+                        <th>It is a keyword that creates an instance in the memory</th>
+                    </tr>
+                    <tr>
+                        <th>size</th>
+                        <th>It is the length of the array</th>
+                    </tr>
+                </table>
+                <br>
+                <br>
+                <br>
+                <h3 id="arrayt">
+                    Alternatively in situation where the size of array and variable are already known we can do, <br>
+                    <h4 style="font-family: consolas;" id="arrayt">int arr[]={10,20,30} //declaration,instantiation,initialization
+                        <br>
+                        <br> We can take input in an array by the two following ways: <br>
+                    </h4>
+                    <ol>
+                        <ol type="1">
+                            <li>Using Command Line</li>
+                            <li>Using Scanner Class</li>
+                        </ol>
+                    </ol>
+                    <br> <br>
+                </h3>
+        </h4>
+        <br> <br> <br>
+        <hr id="arrays">
+        <br> <br>
+        <h3 id="arrayt"><u>2D array</u></h3>
+        <p id="arrayt">A two-dimensional array is an array that contains elements in the form of rows and columns. <br>
+            It means we need both row and column to populate a two-dimensional array. <br>
+            Matrix is the best example of a 2D array. <br>
+        </p>
+        <br> <br>
+        <img src="https://i.ibb.co/0mRCcdf/4x4.jpg" alt="2-D_Array">
+        <br> <br>
+        <h4 style="font-family: consolas,sans-serif;" id="arrayt">
+            We can declare a two-dimensional array by using the following statement: <br> <br>
+            datatype arrayName[][] = new datatype[m][n]; <br>
+            datatype[][] arrayName[][] = new datatype[m][n]; <br> <br>
+            Example: <br>
+            int arr[][]= new int[10][20]; <br>
+            int[][] arr= new int[10][20]; <br>
+        </h4>
+        <br>
+        <h4 id="arrayt">
+            <h3 id="arrayt">Meaning of each word in above statement </h3>
+            <table>
+                <table border="1" id="arrayt">
+                    <tr>
+                        <th>datatype</th>
+                        <th>It is the type of element we want to enter in the array like int,float,double etc.</th>
+                    </tr>
+                    <tr>
+                        <th>arrayName</th>
+                        <th>It is an identifier</th>
+                    </tr>
+                    <tr>
+                        <th>new</th>
+                        <th>It is a keyword that creates an instance in the memory</th>
+                    </tr>
+                    <tr>
+                        <th>m</th>
+                        <th>It is the number of rows</th>
+                    </tr>
+                    <tr>
+                        <th>n</th>
+                        <th>It is the number of column</th>
+                    </tr>
+                </table>
+                <br> <br> <br>
+                <h3 id="arrayt">
+                    Alternatively in situation where the size of array and variable are already known we can do, <br>
+                    <h4 style="font-family: consolas;" id="arrayt">int arr[2][2]={10,20,30,40}
+                        //declaration,instantiation,initialization with 2 row and 2 column <br>
+                        <br> We can take input in an array by the two following ways: <br>
+                    </h4>
+                    <ol>
+                        <ol type="1">
+                            <li>Using Command Line</li>
+                            <li>Using Scanner Class</li>
+                        </ol>
+                    </ol>
+                    <br> <br>
+                </h3>
+</body>
+
+</html>
