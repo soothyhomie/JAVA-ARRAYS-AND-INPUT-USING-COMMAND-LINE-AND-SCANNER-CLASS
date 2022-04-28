@@ -1,0 +1,15 @@
+#cl {
+    margin-left: 30px;
+   
+}
+
+hr#command-line {
+    border-color: gray;
+    border-width: 2px;
+    margin-left: 0px;
+}
+
+#codes{
+    margin-left: 30px;
+    font-family: consolas, sans-serif;
+}

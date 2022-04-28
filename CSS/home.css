@@ -1,0 +1,18 @@
+#Assignment{
+    font-family: ubuntu;
+    text-align: center; 
+}
+p#Assignment{
+    color: #3B444B;
+}
+hr#Home{
+    border-color: gray;
+    border-width: 2px;
+}
+#Group{
+    font-family: ubuntu;
+    text-align: center;
+}
+h1#Group{
+    color:#54626F;
+}
